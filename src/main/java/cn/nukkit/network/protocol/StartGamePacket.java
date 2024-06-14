@@ -154,7 +154,6 @@ public class StartGamePacket extends DataPacket {
             this.putBoolean(true);
         }
         this.putBoolean(true); // Were experiments previously toggled
-        this.putExperiments(this.experiments);
         this.putBoolean(this.bonusChest);
         this.putBoolean(this.hasStartWithMapEnabled);
         this.putVarInt(this.permissionLevel);
